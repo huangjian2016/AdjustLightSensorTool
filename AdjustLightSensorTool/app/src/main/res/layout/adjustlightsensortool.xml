@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="400dp"
+              android:orientation="horizontal"
+              >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="400dp"
+        android:text="显示相关信息"
+        android:id="@+id/mtextViewshow"
+        android:background="@color/cadetblue"
+        />
+
+<RelativeLayout
+    android:layout_width="100dp"
+    android:layout_height="400dp"
+
+    >
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="编辑录入区"
+        android:id="@+id/mEditText"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:editable="true"
+
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:text="记 录"
+        android:id="@+id/mButton01"
+
+        android:layout_alignLeft="@+id/mEditText"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:id="@+id/mButton02"
+        android:text="计 算"
+        android:clickable="true"
+        android:layout_alignRight="@+id/mEditText"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="400dp"
+        android:id="@+id/mHelpText"
+        android:text="操作说明"
+        android:background="@color/gold"
+        android:gravity="left"
+        />
+
+</LinearLayout>
