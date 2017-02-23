@@ -22,6 +22,7 @@
     <EditText
         android:layout_width="100dp"
         android:layout_height="100dp"
+		android:hint="请输入当前环境光照量"
         android:text="编辑录入区"
         android:id="@+id/mEditText"
         android:layout_marginTop="10dp"
